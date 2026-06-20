@@ -71,3 +71,9 @@ RAG_Disease-Chatbot/
 ![Scrrenshot(107).png](https://github.com/Vaishnavi26-Kasture/Medical_Bot-Using-RAG/blob/main/Screenshot%20(107).png)
 
 
+
+
+
+![Scrrenshot(108).png](https://github.com/Vaishnavi26-Kasture/Medical_Bot-Using-RAG/blob/main/Screenshot%20(108).png)
+
+
