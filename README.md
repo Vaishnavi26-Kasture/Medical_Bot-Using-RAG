@@ -7,31 +7,18 @@ A Retrieval-Augmented Generation (RAG) chatbot that answers medical encyclopedia
 ## How It Works
 
 PDF (Gale Encyclopedia of Medicine)
-
 │
-
 ▼
-
 Load & chunk text  (create_memory_for_llm.py)
-
 │
-
 ▼
-
 Embed chunks (sentence-transformers/all-MiniLM-L6-v2)
-
 │
-
 ▼
-
 FAISS vector store  (vectorstore/db_faiss)
-
 │
-
 ▼
-
 Query → retrieve top-k chunks → LLM → grounded answer
-
 (create_memory_with_llm.py)
 
 1. **Indexing** — `create_memory_for_llm.py` loads PDFs from `data/`, splits them into chunks, embeds them, and saves a FAISS index to `vectorstore/db_faiss`.
@@ -40,21 +27,13 @@ Query → retrieve top-k chunks → LLM → grounded answer
 ## Project Structure
 
 RAG_Disease-Chatbot/
-
 ├── data/                       # Place source PDF(s) here (not committed)
-
 ├── vectorstore/db_faiss/       # Generated FAISS index (not committed)
-
 ├── create_memory_for_llm.py    # Step 1: build the vector store from PDFs
-
 ├── create_memory_with_llm.py   # Step 2: query the vector store via an LLM
-
 ├── test.py                     # Quick script to sanity-check HF endpoint connectivity
-
 ├── requirement.txt             # Python dependencies
-
 ├── .env                        # HF_TOKEN (not committed)
-
 └── README.md
 
 ## Tech Stack
