@@ -69,7 +69,7 @@ RAG_Disease-Chatbot/
 ## Output
 
 <p align="center">
-  <img src="https://github.com/Vaishnavi26-Kasture/Medical_Bot-Using-RAG/blob/main/Screenshot%20(107).png" width="600">
+  <img src="Screenshot(107).png" width="600">
 </p>
 
 
