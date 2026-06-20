@@ -7,15 +7,19 @@ A Retrieval-Augmented Generation (RAG) chatbot that answers medical encyclopedia
 ## How It Works
 
 PDF (Gale Encyclopedia of Medicine)
+
 │
 ▼
 Load & chunk text  (create_memory_for_llm.py)
+
 │
 ▼
 Embed chunks (sentence-transformers/all-MiniLM-L6-v2)
+
 │
 ▼
 FAISS vector store  (vectorstore/db_faiss)
+
 │
 ▼
 Query → retrieve top-k chunks → LLM → grounded answer
