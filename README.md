@@ -68,4 +68,8 @@ RAG_Disease-Chatbot/
 
 ## Output
 
+<p align="center">
+  <img src="assets/architecture.png" width="600">
+</p>
+
 
