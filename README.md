@@ -68,6 +68,6 @@ RAG_Disease-Chatbot/
 
 ## Output
 
-![Scrrenshot(107)](https://github.com/yourusername/RAG_Disease-Chatbot/assets/12345678/abcd-1234.png)
+![Scrrenshot(107).png](https://github.com/Vaishnavi26-Kasture/Medical_Bot-Using-RAG/blob/main/Screenshot%20(107).png)
 
 
