@@ -68,8 +68,6 @@ RAG_Disease-Chatbot/
 
 ## Output
 
-<p align="center">
-  <img src="Screenshot(107).png" width="600">
-</p>
+![Scrrenshot(107)](https://github.com/yourusername/RAG_Disease-Chatbot/assets/12345678/abcd-1234.png)
 
 
